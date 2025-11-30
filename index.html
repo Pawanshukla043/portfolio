@@ -12,26 +12,37 @@
 
 <body>
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg fixed-top">
+    <nav class="navbar navbar-expand-lg fixed-top smart-navbar at-top" id="mainNav">
         <div class="container">
             <a class="navbar-brand" href="#">Pawan Shukla</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                <span class="navbar-toggler-icon"></span>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <!-- Custom Hamburger Icon -->
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
             </button>
+
             <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
+                <ul class="navbar-nav ms-auto align-items-center">
                     <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
                     <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
                     <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
                     <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#strengths">Strengths</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#certifications">Certifications</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#activities">Activities</a></li>
                     <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    <!-- Add a CTA Button -->
+                    <li class="nav-item ms-lg-3 mt-3 mt-lg-0">
+                        <a href="https://drive.google.com/file/d/1ZYapBST4-Bt1xIMJhqkZPPG54uTCSNI2/view?usp=drive_link"
+                            class="btn btn-dark rounded-pill px-4 btn-sm">Resume</a>
+                    </li>
                 </ul>
             </div>
         </div>
     </nav>
+
 
     <!-- Hero Section -->
     <section id="about" class="hero py-5">
@@ -55,7 +66,7 @@
                         </div>
                         <p class="mb-4">
                             <a href="https://www.linkedin.com/in/pawanshukla191063/"
-                                class="text-white text-decoration-none" target="_blank" rel="noopener noreferrer">
+                                class="text-blue text-decoration-none" target="_blank" rel="noopener noreferrer">
                                 <i class="fab fa-linkedin fa-lg"></i>
                             </a>
                             LinkedIn Profile
