@@ -35,8 +35,10 @@
                     <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
                     <!-- Add a CTA Button -->
                     <li class="nav-item ms-lg-3 mt-3 mt-lg-0">
-                        <a href="https://drive.google.com/file/d/1ZYapBST4-Bt1xIMJhqkZPPG54uTCSNI2/view?usp=drive_link"
-                            class="btn btn-dark rounded-pill px-4 btn-sm">Resume</a>
+                        <a href="https://drive.google.com/file/d/1ZYapBST4-Bt1xIMJhqkZPPG54uTCSNI2/view?usp=sharing"
+                            target="_blank" class="btn btn-dark rounded-pill px-4 btn-sm">
+                            <i class="fas fa-download me-2"></i> Resume
+                        </a>
                     </li>
                 </ul>
             </div>
@@ -798,20 +800,31 @@
             <h2 class="section-title">Contact Information</h2>
             <div class="row text-center">
                 <div class="col-md-3 mb-3">
-                    <i class="fas fa-phone fa-2x mb-2"></i>
-                    <p>+91 70243 43552</p>
+                    <!-- The tel: protocol triggers the call action -->
+                    <a href="tel:+917024343552" class="text-decoration-none text-reset">
+                        <i class="fas fa-phone fa-2x mb-2"></i>
+                        <p>+91 70243 43552</p>
+                    </a>
                 </div>
                 <div class="col-md-3 mb-3">
-                    <i class="fas fa-envelope fa-2x mb-2"></i>
-                    <p>ps0871249@gmail.com</p>
+                    <!-- The mailto: protocol triggers the email app -->
+                    <a href="mailto:ps0871249@gmail.com" class="text-decoration-none text-reset">
+                        <i class="fas fa-envelope fa-2x mb-2"></i>
+                        <p>ps0871249@gmail.com</p>
+                    </a>
                 </div>
                 <div class="col-md-3 mb-3">
-                    <i class="fab fa-linkedin fa-2x mb-2"></i>
-                    <p><a href="https://www.linkedin.com/in/pawanshukla191063/">LinkedIn</a></p>
+                    <a href="https://www.linkedin.com/in/pawanshukla191063/" target="_blank"
+                        class="text-decoration-none text-reset">
+                        <i class="fab fa-linkedin fa-2x mb-2"></i>
+                        <p>LinkedIn</p>
+                    </a>
                 </div>
                 <div class="col-md-3 mb-3">
-                    <i class="fab fa-github fa-2x mb-2"></i>
-                    <p><a href="#">GitHub</a></p>
+                    <a href="https://github.com/Pawanshukla043" target="_blank" class="text-decoration-none text-reset">
+                        <i class="fab fa-github fa-2x mb-2"></i>
+                        <p>GitHub</p>
+                    </a>
                 </div>
             </div>
             <div class="text-center mt-4">
