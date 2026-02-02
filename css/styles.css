@@ -265,11 +265,11 @@ body {
 }
 
 .carousel-control-prev {
-    left: -25px;
+    left: -6vw;
 }
 
 .carousel-control-next {
-    right: -25px;
+    right: -8vw;
 }
 
 .carousel-indicators button {
@@ -352,6 +352,27 @@ body {
 
     .section-title {
         font-size: 2rem;
+    }
+    .skill-slider {
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        scroll-snap-type: x mandatory;
+        -webkit-overflow-scrolling: touch;
+        padding-bottom: 1rem;
+    }
+
+    .skill-slider::-webkit-scrollbar {
+        display: none;
+    }
+
+    .skill-slider > div {
+        flex: 0 0 80%;
+        max-width: 80%;
+        scroll-snap-align: center;
+    }
+
+    .skill-slider .card {
+        margin-right: 1rem;
     }
 }
 
